@@ -47,7 +47,9 @@
 				    	 			<td>".$row['address']."</td>
 				    	 			<td>".$row['email']."</td>
 				    	 			<td>
-				    	 			<a href='edit.php' class='btn btn-primary'>Update</a><a href='remove.php' class='btn btn-success'>Remove</a>
+				    	 			<a href='edit.php?id=".$row['id']."' class='btn btn-primary'>Update</a>
+				    	 			<a href='remove.php?id=".$row['id']."' class='btn btn-success'>Remove</a>
+				    	 			<a href='view.php?id=".$row['id']."' class='btn btn-success'>View</a>
 				    	 			</td>
 				    	 		</tr>";
 				    	 	}

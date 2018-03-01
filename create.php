@@ -9,37 +9,37 @@
 				<div class="form-group row">
     				<label for="firstname" class="col-sm-3 col-form-label">First name</label>
     				<div class="col-sm-9">
-      					<input type="text" class="form-control" name="fname" placeholder="First name">
+      					<input type="text" class="form-control" name="fname" placeholder="First name" required>
     				</div>
   				</div>
   				<div class="form-group row">
     				<label for="lastname" class="col-sm-3 col-form-label">Last name</label>
     				<div class="col-sm-9">
-      					<input type="text" class="form-control" name="lname" placeholder="Last name">
+      					<input type="text" class="form-control" name="lname" placeholder="Last name" required>
     				</div>
   				</div>
   				<div class="form-group row">
     				<label for="age" class="col-sm-3 col-form-label">Age</label>
     				<div class="col-sm-9">
-      					<input type="text" class="form-control" name="age" placeholder="Age">
+      					<input type="text" class="form-control" name="age" placeholder="Age" required>
     				</div>
   				</div>
   				<div class="form-group row">
     				<label for="contact" class="col-sm-3 col-form-label">Contact</label>
     				<div class="col-sm-9">
-      					<input type="text" class="form-control" name="contact" placeholder="Contact">
+      					<input type="text" class="form-control" name="contact" placeholder="Contact" required>
     				</div>
   				</div>
   				<div class="form-group row">
     				<label for="address" class="col-sm-3 col-form-label">Address</label>
     				<div class="col-sm-9">
-      					<input type="text" class="form-control" name="address" placeholder="Address">
+      					<input type="text" class="form-control" name="address" placeholder="Address" required>
     				</div>
   				</div>
   				<div class="form-group row">
     				<label for="email" class="col-sm-3 col-form-label">Email</label>
     				<div class="col-sm-9">
-      					<input type="text" class="form-control" name="email" placeholder="Email">
+      					<input type="text" class="form-control" name="email" placeholder="Email" required>
     				</div>
   				</div>
   				<input class="btn btn-primary" type="submit" value="Add to user">
