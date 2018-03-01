@@ -5,10 +5,10 @@ if($_GET['id']){
 	$id = $_GET['id'];
 
 	$sql = "SELECT * FROM users WHERE id = {$id}";
-	$result = $dbcon->query($sql);
+  $result = $dbcon->query($sql);
 	
 	$data = $result->fetch_assoc();
-	$dbcon->close();
+  $dbcon->close();
 
 ?>
 <?php include("inc/header.php"); ?>
